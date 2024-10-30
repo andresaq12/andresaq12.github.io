@@ -11,12 +11,6 @@ socket.on('chat message', (msg) => {
   messages.insertAdjacentHTML('beforeend', item)
 })
 
-socket.on('connect_error', (err) => {
-  console.log('msg: ', err.message)
-  console.log('description: ', err.description)
-  console.log('context: ', err.context)
-})
-
 form.addEventListener('submit', (e) => {
   e.preventDefault()
 
