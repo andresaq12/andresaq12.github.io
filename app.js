@@ -1,6 +1,6 @@
 import { io } from 'https://cdn.socket.io/4.8.0/socket.io.esm.min.js'
 
-const socket = io("http://localhost:1234")
+const socket = io("https://chat-server-tmx9.onrender.com:10000")
 
 const form = document.getElementById('form')
 const input = document.getElementById('input')
